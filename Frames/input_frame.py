@@ -8,12 +8,12 @@ import tkmacosx as tkm
 class InputFrame:
     def __init__(self) -> None:
         # frames
-        self.input_fr = tk.LabelFrame(text="Ingave")  # type: ignore
+        self.input_fr = tk.LabelFrame(text="Uitgave winkel")  # type: ignore
         self.input_fr.grid(row=0, column=0, padx=20, pady=10)
 
         # labels
         self.date_lbl = tk.Label(self.input_fr, text="Datum")
-        self.expenses_lbl = tk.Label(self.input_fr, text="Uitgave")
+        self.expenses_lbl = tk.Label(self.input_fr, text="Bedrag")
         self.store_lbl = tk.Label(self.input_fr, text="Winkel")
 
         # labels grid position
