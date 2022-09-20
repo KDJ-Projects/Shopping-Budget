@@ -8,8 +8,8 @@ class MainWindow:
     def __init__(self) -> None:
         self.root = tk.Tk()
         self.root.title("Huishoud boekje")
-        self.root.geometry("+2900+400")
-        # self.root.eval("tk::PlaceWindow . center")
+        # self.root.geometry("+2900+400")
+        self.root.eval("tk::PlaceWindow . center")
 
         # Frames
         InputFrame()
